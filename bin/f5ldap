@@ -1,0 +1,4 @@
+#! /bin/bash -x
+
+typeset -i num=$((1 + RANDOM % 5))
+for i in $(seq 1 $num); do sleep 1; echo $i; done

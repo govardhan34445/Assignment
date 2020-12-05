@@ -1,0 +1,41 @@
+
+Username: kolla
+Manager : Udayakiran Nelluri
+
+ERROR: Search failure:Sizelimit exceeded
+    adapa           Praveen Kumar Reddy ADAPA           HYDERABAD  Software Engineer I
+    akkala          Krishna Reddy AKKALA                Hyderabad  Sr Software Engineer
+    chandana        Venkata Satya Praveen Chandana - V  Hyderabad  Tech Support Coordinator I
+    gunda           Priya GUNDA                         Hyderabad  Software Engineer I
+    jguduru         Janardhan GUDUR                     HYDERABAD  Software Engineer III
+    kolla           Sai Nagarjuna KOLLA                 Hyderabad  Software Engineer I
+    m.nannebhigari  Mahaboob Basha NANNEBHIGARI         Hyderabad  Sr Lab Network Engineer
+    nelluri         Udayakiran Nelluri                  HYDERABAD  Sr Mgr, Product Development
+    ochauhan        Om Prakash Chauhan                  Hyderabad  Software Engineer III
+    pbandela        Pramod Kumar BANDELA                Hyderabad  Sr Software Engineer
+    pole            Anil Kumar POLE                     HYDERABAD  Sr Software Engineer
+    purohit         Parth Harikrishen PUROHIT           Hyderabad  Software Engineer I
+    reknar          Rakesh Reknar                       Hyderabad  Sr Software Engineer
+    sedubati        Satyavani EDUBATI                   Hyderabad  Software Engineer III
+    snimmagadda     Sridhar NIMMAGADDA                  Hyderabad  Principal Software Engineer
+    susingh         Suryansh Pratap                     HYDERABAD  Software Engineer II
+    thatavarthi     Sailiash THATAVARTHI                HYDERABAD  Software Engineer II
+
+B S User            ----- P4 Groups --------------
+    adapa                                       
+  X akkala                                      
+    chandana                                    
+  X gunda                                       
+    jguduru                                     
+    kolla              engineers            test
+  X m.nannebhigari                              
+    nelluri                                     
+    ochauhan                                    
+  X pbandela                                    
+  X pole                                        
+  X purohit                                     
+  X reknar          cm           superusers     
+    sedubati                                    
+    snimmagadda                                 
+    susingh                                     
+    thatavarthi                                 

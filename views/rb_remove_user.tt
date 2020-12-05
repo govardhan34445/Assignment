@@ -1,0 +1,84 @@
+[% IF is_get %]
+<link href="css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+<style>
+.ms-options-wrap > .ms-options > ul label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 4px;
+    margin: 1px 0;
+    background-color: #9DCEFF;
+
+}
+.ms-options-wrap > .ms-options > ul li.selected label,
+.ms-options-wrap > .ms-options > ul label:hover {
+    background-color: #003A75;
+    color:#fff;
+}
+
+</style>
+
+<hr/>
+<h1>Remove User From Review Group</h1>
+<hr/>
+
+
+<form id="user_form">
+  <div class="form-group row">
+    <label for="username" class="col-sm-2 col-form-label">Username</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" required>
+    </div>
+  </div>
+
+  <div class="form-group row" >
+    <label for="group" class="col-sm-2 col-form-label">Group Name</label>
+    <div class="col-sm-2">
+        <input type="text" class="form-control" id="groupname" name="groupname" placeholder="Enter Groupname" required>
+    </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="submit" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary mb-2">Remove User</button>
+    </div>
+  </div>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+
+$('#user_form').on('submit',function(e){
+    e.preventDefault();
+
+    alertify.confirm('Do you want to remove user from group ?', function(){
+    console.log("inside call"); 
+    var form_data = {group_name : document.getElementById('groupname').value, username: document.getElementById('username').value };
+    $.ajax({
+          type: "POST",
+          url: '/review_group/remove_user',
+          data: JSON.stringify(form_data),
+          //data: form_data,
+          success: function(response){
+            if(response.stat == 1) {
+                alertify.success("Success\n" +  response.msg).delay(20);
+            } else {
+                alertify.error("Error occured\n" + response.msg).delay(20);
+            }
+          },
+        error : function(xhr, textStatus, errorThrown) {
+            alertify.error(errorThrown);
+        },
+          //dataType: "json"
+          contentType : "application/json"
+        });
+    }).setHeader('<em> Confirm </em> ');
+    return false;
+});
+
+
+</script>
+[% END %]

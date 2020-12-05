@@ -1,0 +1,85 @@
+<hr/>
+<h1>[% h1title %]</h1>
+<hr/>
+<form class="form-inline" id="user_form" method="post" action="[% path %]">
+  <div class="form-group mx-sm-3 mb-2">
+    <label for="username" class="sr-only">Username</label>
+    <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" value="[% username %]" required>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+
+<hr/>
+
+[% IF result.0.size %]
+  <pre class="p4">
+  [% result.0.0 %]
+  [% result.0.1 %]
+  </pre>
+[% END %]
+
+[% IF result.1.size %]
+<div class="container-fluid">
+  <table class="thead-dark table-bordered table-striped">
+    <!--thead>
+      <tr>
+        <td>Username</td> <td>Full Name</td> <td>City</td> <td>Title</td>
+      </tr>
+    </thead-->
+
+  [% FOREACH item in result.1 %]
+    <tr>
+    [% FOREACH ite in item %]
+      [% FOREACH it in ite %]
+        <td>
+          <pre class="p4">[% it %]</pre>
+        </td>
+      [% END %]
+    [% END %]
+    </tr>
+  [% END %]
+  </table>
+</div>
+[% END %]
+
+
+[% IF result.2.size %]
+  <div class="container-fluid">
+  <br/><h5>P4 Groups:</h5>
+  <table class="thead-dark table-bordered table-striped">
+    <thead>
+      <tr align="center">
+        <td>B</td> <td>S</td> <td>User</td> <td colspan="[% result.2.0.size - 3 %]">Groups</td>
+      </tr>
+    </thead>
+
+  [% FOREACH item in result.2 %]
+    <tr>
+    [% FOREACH ite in item %]
+      [% FOREACH it in ite %]
+        <td>
+          <pre class="p4">&nbsp;[% it %]&nbsp;</pre>
+        </td>
+      [% END %]
+    [% END %]
+    </tr>
+  [% END %]
+
+  </table>
+  </div>
+[% END %]
+<br>
+
+<script>
+
+$('.filterForm').on('submit',function(e){
+    e.preventDefault();
+    var formData=$(this).serialize();
+    var fullUrl = window.location.href;
+    var finalUrl = fullUrl+"&"+formData;
+    window.location.href = finalUrl;
+
+})
+
+</script>
+

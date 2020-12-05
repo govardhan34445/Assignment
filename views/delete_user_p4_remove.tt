@@ -1,0 +1,59 @@
+<hr/>
+<h1>[% hititle %]</h1>
+<hr/>
+
+<form class="form-inline" id="user_form" method="post" action="[% path %]">
+ <div class="form-group mx-sm-3 mb-2">
+    <label for="username" class="sr-only">Username</label>
+    <input type="text" class="form-control" id="ticket" name="ticket" placeholder="Enter ticket#" value="[% ticket %]" required>&nbsp;
+    <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" value="[% username %]" required>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Search</button>&nbsp;
+  <button type="submit" id="submitme" name="remove" value="" class="btn btn-primary mb-2">Remove</button>&nbsp;
+  <input type="hidden" class="form-control" name="remove" id="remove" value="">
+[% IF pending.size %]
+  <input type="checkbox" class="form-control" id="force_delete" name="force_delete">&nbsp;Force Delete
+[% END %]
+</form>
+
+<script>
+$('#submitme').on('click', function() {
+
+        event.preventDefault();
+        console.log('Box is Checked');
+
+        alertify.confirm('User will be deleted. Are you sure?', function(e) {
+
+            if(e) {
+                console.log('OK clicked');
+                $('#remove').val('1');
+                $('#user_form').submit();
+                return(true);
+            } else {
+                console.log('Cancel clicked');
+                return(false);
+            }
+        });
+})
+</script>
+
+<hr/>
+
+[% INCLUDE 'components/infotable.tt' %]
+<br/>
+[% IF pending.size %]
+  <br>
+  <div class="container-fluid"> 
+    Following activities are pending:
+    <ul>
+    [% FOREACH item in pending %]
+      <li>-&nbsp;[% item %]&nbsp;</li>
+    [% END %]
+    </ul>
+
+  Please check "Force" box if you still want to go ahead with delete action.
+  </div>
+[% END %]
+<br>
+[% INCLUDE 'components/output.tt' %]
+

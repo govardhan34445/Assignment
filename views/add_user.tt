@@ -1,0 +1,110 @@
+[% IF is_get %]
+<link href="css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+<style>
+.ms-options-wrap > .ms-options > ul label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 4px;
+    margin: 1px 0;
+    background-color: #9DCEFF;
+    
+}
+.ms-options-wrap > .ms-options > ul li.selected label,
+.ms-options-wrap > .ms-options > ul label:hover {
+    background-color: #003A75;
+    color:#fff;
+}
+
+</style>
+
+<hr/>
+<h1>Add User</h1>
+<hr/>
+
+<form id="user_form">
+  <div class="form-group row">
+    <label for="username" class="col-sm-2 col-form-label">Username</label>
+    <div class="col-sm-2">
+      <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" required>
+    </div>
+  </div>
+
+  <div class="form-group row" >
+    <label for="group" class="col-sm-2 col-form-label">Select Group:</label>
+    <div class="col-sm-10">
+    <div class="form-inline" id="trikcy3id" style="text-align: center;margin: 5px; width:90%;">
+    <select id="multicheck" name="multicheckbox" multiple="multiple" class="4col formcls" >
+    [% FOREACH group IN result_set %]
+        <option value="[% group %]">[% group %]</option>
+    [% END %]
+    </select>
+    </div>
+    </div>
+  </div>
+
+    <div class="form-group row">
+    <label for="username" class="col-sm-2 col-form-label">Extra Options:</label>
+    <div class="col-sm-2">
+        <select class="form-control" id="skip_manager">
+        <option value="y">Yes</option>
+        <option value="n">No</option>
+        <option value="s">Skip Manager</option>
+      </select>
+  </div>
+  </div>
+    <div class="form-group row">
+    <label for="submit" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+  </div>
+</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="js/jquery.multiselect.js"></script>
+<script>
+
+$('select[multiple]').multiselect({
+    columns: 4,
+    placeholder: 'Select Group[s]',
+    search   : true,
+    selectAll: true,
+});
+
+</script>
+
+<script>
+
+$('#user_form').on('submit',function(e){
+    e.preventDefault();
+    var selectedValues = [];
+    $("#multicheck").each(function(){
+        selectedValues.push($(this).val()); 
+    });
+
+    var form_data = {groups : selectedValues, username: document.getElementById('username').value, skip_manager : document.getElementById('skip_manager').value };
+        $.ajax({
+          type: "POST",
+          url: '/add_user',
+          //data: JSON.stringify(form_data),
+          data: form_data,
+          success: function(response){
+            if(response.success == 1) {
+                alertify.success("Success" +  response.result).delay(20);
+            } else {
+                alertify.error("Error occured" + response.result).delay(20);
+            }
+          },
+        error : function(xhr, textStatus, errorThrown) {
+            alertify.error(errorThrown); 
+        },
+          dataType: "json"
+          //contentType : "application/json"
+        });
+    return false;
+});
+
+</script>
+[% END %]

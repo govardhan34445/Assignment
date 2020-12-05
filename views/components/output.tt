@@ -1,0 +1,11 @@
+<div class="container-fluid">
+[% IF result %]
+<!--script> alertify.success("User deleted Successfully.").delay(20); </script-->
+  <h4>Result:</h4>
+  <pre>[% result %]</pre>
+[% END %]
+[% IF error %]
+  <h4>Error:</h4>
+  <pre>[% error %]</pre>
+[% END %]
+</div>

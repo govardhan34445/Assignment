@@ -1,0 +1,15 @@
+<hr/>
+<h1>Cleanup Machines</h1>
+<hr/>
+<form class="form-inline" id="user_form" method="post" action="[% path %]">
+ <div class="form-group mx-sm-3 mb-2">
+    <label for="buildname" class="sr-only">Buildname</label>
+    <input type="text" class="form-control" id="buildname" name="buildname" placeholder="Enter Build Name" value="[% buildname %]" required>
+  </div>
+    <!-- sudo /cmscripts/f5ldap -t <username>.
+           disabled then go to the further step     -->
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+<hr/>
+
+[% INCLUDE 'components/output.tt' %]

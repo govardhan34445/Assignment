@@ -1,0 +1,74 @@
+# This is the main configuration file of your Dancer2 app
+# env-related settings should go to environments/$env.yml
+# all the settings in this file will be loaded at Dancer's startup.
+environment : production
+
+# Your application's name
+appname: "SOC ADMIN"
+
+# The default layout to use for your application (located in
+# views/layouts/main.tt)
+layout: "main"
+
+# when the charset is set to UTF-8 Dancer2 will handle for you
+# all the magic of encoding and decoding. You should not care
+# about unicode within your app when this setting is set (recommended).
+charset: "UTF-8"
+
+# template engine
+# simple: default and very basic template engine
+# template_toolkit: TT
+
+template: "template_toolkit"
+
+# template: "template_toolkit"
+# engines:
+#   template:
+#     template_toolkit:
+#       start_tag: '<%'
+#       end_tag:   '%>'
+
+# session engine
+#
+# Simple: in-memory session store - Dancer2::Session::Simple
+# YAML: session stored in YAML files - Dancer2::Session::YAML
+#
+# Check out metacpan for other session storage options:
+# https://metacpan.org/search?q=Dancer2%3A%3ASession&search_type=modules
+#
+# Default value for 'cookie_name' is 'dancer.session'. If you run multiple
+# Dancer apps on the same host then you will need to make sure 'cookie_name'
+# is different for each app.
+#
+session_expiry_sec: 3600
+
+sql_db_file: 'db/cm_admin.db'
+
+logger: "File::RotateLogs"
+
+session: "YAML"
+
+#serializer: "JSON"
+
+# options (It's possible to omit)
+engines:
+  logger:
+    File::RotateLogs:
+      #logfile: '/home/reknar/UI/test-ui/v2-github/cmadmin/logs/error.log.%Y%m%d%H'
+      #linkname: '/home/reknar/UI/test-ui/v2-github/cmadmin/logs/error.log'
+      logfile: 'logs/error.log.%Y%m%d%H'
+      linkname: 'error.log'
+      rotationtime: 86400
+      maxage: 86400 * 7 
+
+  session:
+    YAML:
+      session_dir: "/tmp/dancer-sessions"
+
+#  serializer:
+#    JSON:
+#      allow_blessed:   '1'
+#      canonical:       '1'
+#      convert_blessed: '1'
+#      allow_nonref:    '1'
+

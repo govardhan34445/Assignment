@@ -1,0 +1,75 @@
+
+Username: manikya
+Manager : KK .
+
+ERROR: Search failure:Sizelimit exceeded
+    adapa            Praveen Kumar Reddy ADAPA          HYDERABAD  Software Engineer I
+    atluri           Amulya Atluri                      Hyderabad  Software Engineer I
+    bottu            Damodhar BOTTU - V                 Hyderabad  Tech Support Coordinator I
+    devarapilli      Kanakamahalakshmi DEVARAPILLI - V  Hyderabad  Tech Support Coordinator I
+    ethatavarthi     Eswar Teja Thatavarthi - V         Hyderabad  Tech Support Coordinator I
+    glikman          Perry Glikman                      Tel Aviv   Principal Configuration Engineer
+    gorige           Yashwanth GORIGE - V               Hyderabad  Tech Support Coordinator I
+    gullapelli       Vijay GULLAPELLI - V               Hyderabad  Tech Support Coordinator I
+    hakula           Harish AKULA                       Hyderabad  Software Engineer II
+    indoriya         Ashish Indoriya                    HYDERABAD  Software Engineer II
+    jguduru          Janardhan GUDUR                    HYDERABAD  Software Engineer III
+    jpitta           Jagadeesh Kumar PITTA - V          Hyderabad  Tech Support Coordinator I
+    kadamati         Vivek KADAMATI                     HYDERABAD  Software Engineer II
+    kammili          Pradeep Kammili                    HYDERABAD  Software Engineer III
+    kompelly         Santhosh Kumar KOMPELLY            HYDERABAD  Software Engineer III
+    koya             Jaswanth KOYA                      HYDERABAD  Software Engineer III
+    m.nannebhigari   Mahaboob Basha NANNEBHIGARI        Hyderabad  Lab Network Engineer
+    manikya          Manish Kumar MANIKYA               Hyderabad  Software Engineer I
+    momula           Srikanth Momula - V                Hyderabad  Tech Support Coordinator I
+    nnayak           Nihar Ranjan NAYAK                 HYDERABAD  Software Engineer II
+    pbandela         Pramod Kumar BANDELA               Hyderabad  Software Engineer III
+    reknar           Rakesh Reknar                      Hyderabad  Sr Software Engineer
+    s.peddi          Siva PEDDI - V                     Hyderabad  Lab Network Engineer
+    sabapathi        Manikandan SABAPATHI               Hyderabad  Software Engineer III
+    sedubati         Satyavani EDUBATI                  Hyderabad  Software Engineer II
+    shareef          Yaseen Shareef - V                 Hyderabad  Tech Support Coordinator I
+    shchauhan        Shashank CHAUHAN - V               Hyderabad  Tech Support Coordinator I
+    srivishnubhotla  Srikar VISHNUBHOTLA - V            Hyderabad  Tech Support Coordinator I
+    tadepu           Tejaswini ADEPU - V                Hyderabad  Tech Support Coordinator I
+    thalakola        Vijitha THALAKOLA - V              HYDERABAD  Tech Support Coordinator I
+    thallam          KK .                               Hyderabad  Sr Mgr, Engineering
+    vattikulla       Srinivas Vattikulla                HYDERABAD  Software Engineer III
+    vthota           Vignan THOTA                       Hyderabad  Software Engineer I
+    yendeti          Sai Bhaskar Yendeti - V            Hyderabad  Tech Support Coordinator I
+
+B S User             ----- P4 Groups --------------
+    adapa                                            
+  X atluri                                           
+    bottu                                            
+    devarapilli                                      
+  X ethatavarthi                                 test
+X X glikman              cm           superusers test
+    gorige                                           
+    gullapelli                                       
+  X hakula           att    engineers            test
+  X indoriya                                         
+    jguduru                                          
+    jpitta                                           
+  X kadamati         att    engineers            test
+  X kammili              cm           superusers     
+    kompelly                                         
+    koya                                             
+  X m.nannebhigari                                   
+  X manikya                 engineers superusers     
+    momula                                       test
+    nnayak                                           
+  X pbandela                                         
+  X reknar               cm           superusers     
+    s.peddi                                          
+  X sabapathi                                    test
+    sedubati                                         
+    shareef                                          
+    shchauhan                                        
+    srivishnubhotla                                  
+    tadepu                  engineers                
+    thalakola                                        
+  X thallam                                          
+    vattikulla                                       
+  X vthota                            superusers     
+    yendeti                                          

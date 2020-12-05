@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    .navbar-center {
+      position: absolute;
+      left: 40%;
+    }
+
+    .navbar-right {
+      position: absolute;
+      left: 85%;
+    }
+
+    .bg-select {
+      background-color: #bac0c5 !important;
+    }
+
+    pre.p4 {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      color: #242424;
+      #font-family: 'Helvetica Neue Light Monospaced', 'Open Sans', Helvetica;
+      #font-family: 'Courier';
+    }
+    pre {
+      border: solid 1px black;
+      margin: 15px;
+    }
+  </style>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This is basically for SOC team to handle CM admin jobs">
+  <meta name="author" content="Rakesh">
+  <title>Admin Control App by CM Team</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <!-- js grid  -->
+  <!-- include the style -->
+  <link rel="stylesheet" href="css/alertify.min.css" />
+  <!-- include a theme -->
+  <link rel="stylesheet" type="text/css" href="css/demos.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+  <!-- Notificatipon js -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+
+
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/alertify.min.js"></script>
+  <script type="text/javascript" src="test/jquery.validate.min.js"></script>
+
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><img src="images/F5Logo1.png" height="60px"= /></div>
+      <div class="sidebar-heading">SOC PANEL DEMO </div>
+      <div class="list-group list-group-flush">
+        <a href="/mgr_view" class="list-group-item list-group-item-action bg-light">Manager View</a>
+        <a href="/f5ldap_check" class="list-group-item list-group-item-action bg-light">F5 LDAP check</a>
+        <a href="/cleanup_build" class="list-group-item list-group-item-action bg-light">Work Space/ Build Cleanup</a>
+        <a href="/p4_audit" class="list-group-item list-group-item-action bg-light">P4 Last Login Audit</a>
+        <!--<a href="/schedule_exit" class="list-group-item list-group-item-action bg-light disabled">Schedeule Exit</a> -->
+        <a href="/rb_add_user" class="list-group-item list-group-item-action bg-light">Add User RB Group</a>
+        <a href="/rb_remove_user" class="list-group-item list-group-item-action bg-light">Remove User RB Group</a>
+
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Departure</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+
+                <a href="/delete_user_bugz" class="list-group-item list-group-item-action bg-light">Delete Persons - bugz</a>
+                <a href="/delete_user_rb" class="list-group-item list-group-item-action bg-light">Delete Persons - rb</a>
+                <a href="/delete_user_git" class="list-group-item list-group-item-action bg-light">Delete Persons - git</a>
+                <a href="/delete_user_p4_audit" class="list-group-item list-group-item-action bg-light">Delete- Dir & CL if Any</a>
+                <a href="/delete_user_p4_remove" class="list-group-item list-group-item-action bg-light">Delete Persons - p4 Remove</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="panel-group" id="accordion2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2"> PERFORCE</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse in">
+
+                <a href="/mgr_view" class="list-group-item list-group-item-action bg-light">Manager View</a>
+                <a href="/add_user" class="list-group-item list-group-item-action bg-light">Add Persons</a>
+                <a href="/p4_licence_count" class="list-group-item list-group-item-action bg-light">P4 Licence Count</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="panel-group" id="accordion3">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3"> GITLAB</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">WIP.</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-group" id="accordion4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4">
+                    FUTURE GROUP</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">TESTING - WIP </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Hide Menu</button>&nbsp;&nbsp;
+        <button class="btn btn-dark" onclick="javascript:window.history.back();">Back</button>&nbsp;&nbsp;
+        <button class="btn btn-link navbar-right" onclick="window.location.href = '/logout';">Logout ([% sess_user %])</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+        <p class="navbar-text navbar-center ">WELCOME [% sess_user FILTER upper %] </p>
+      </nav>
+      <div class="container-fluid-sm">
+        [% content %]
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $.fn.serializeObject = function () {
+      var o = {};
+      var a = this.serializeArray();
+      $.each(a, function () {
+        if (o[this.name] !== undefined) {
+          if (!o[this.name].push) {
+            o[this.name] = [o[this.name]];
+          }
+          o[this.name].push(this.value || '');
+        } else {
+          o[this.name] = this.value || '';
+        }
+      });
+      return o;
+    };
+
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+      let btnName = $("#menu-toggle").html();
+      btnName = (btnName == 'Hide Menu') ? 'Show Menu' : 'Hide Menu';
+      $("#menu-toggle").html(btnName);
+    });
+
+    function notification(response) {
+      if (response) {
+        if (response.result == 1) {
+          alertify.success(response.message);
+          //window.location.reload();
+          $("#jsGrid").jsGrid("refresh");
+
+        }
+        if (response.result == 0) {
+          alertify.error(response.message);
+        }
+        if (response.result == -1) {
+          alertify.warning(response.message);
+        }
+      } else {
+        alertify.error("No response from server");
+      }
+    }
+
+    alertify.set('notifier', 'position', 'top-right');
+
+    // highlight selected tab
+    $(document).ready(function () {
+      let view = $(location).attr('pathname');
+      if (view == '/') {
+        view = '/mgr_view';
+      }
+
+      let sel = $(`a[href="${view}"]`)
+
+      sel.removeClass('bg-light');
+      sel.addClass('bg-select');
+
+      if (view.match(/delete_user_/)) {
+        $(`#collapse1`).addClass('show');
+      }
+      else if (view.match(/p4_licence_count|add_user/)) {
+        $(`#collapse2`).addClass('show');
+      }
+    });
+  </script>
+</body>
+
+</html>

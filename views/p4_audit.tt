@@ -1,0 +1,15 @@
+<hr/>
+<h1>[% h1title %]</h1>
+<hr/>
+<form class="form-inline" id="user_form" method="post" action="[% path %]">
+ <div class="form-group mx-sm-3 mb-2">
+    <label for="date" class="sr-only">Date (yyyy/mm or yyyy)</label>
+    <input type="text" class="form-control" id="date" name="date" placeholder="Enter date(yyyy or yyyy/mm)" value="[% date %]" required>
+  </div>
+    <!-- sudo /cmscripts/f5ldap -t <username>.
+           disabled then go to the further step     -->
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+<hr/>
+
+[% INCLUDE 'components/output.tt' %]

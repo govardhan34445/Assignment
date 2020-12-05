@@ -1,0 +1,5 @@
+<hr/>
+<h1>P4 Licence Count</h1>
+<hr/>
+ 
+[% INCLUDE 'components/output.tt' %]

@@ -1,0 +1,62 @@
+<html>
+<title>soc Admin Login Page</title>
+<head>
+<script src='vendor/jquery/jquery.min.js'></script>
+<script src='js/jquery-3.3.1.js'></script>
+<link rel='stylesheet' type='text/css' href='/css/login.css'  />
+</head>
+
+<div class='background-wrap'>
+  <div class='background'></div>
+</div>
+
+<body>
+<form id='accesspanel'>
+  <h1 id='litheader'>SOC ADMIN</h1>
+  <div class='inset'>
+    <p>
+      <input type='text' name='user_name' id='user_name' placeholder='UserName'>
+    </p>
+    <p>
+      <input type='password' name='password' id='password' placeholder='Password'>
+    </p>
+    <input class='loginLoginValue' type='hidden' name='service' value='login' />
+  </div>
+  <p class='p-container'>
+    <input type='submit' name='Login' id='login' value='Login'>
+  </p>
+</form>
+  </body>
+</html>
+
+<script>
+
+
+$('#accesspanel').on('submit',function(e){
+    e.preventDefault();
+    document.getElementById("login").className = "denied";
+    document.getElementById("login").value = "Authenticating...";
+    document.getElementById("litheader").className = "poweron";
+
+    var form_data = { user_name: document.getElementById('user_name').value, password: document.getElementById('password').value };
+        $.ajax({
+          type: "POST",
+          url: '/login_user',
+          //data: JSON.stringify(form_data),
+          data: form_data,
+          dataType: "json",
+          success: function (data) {
+            return true;
+        },
+        error: function (textStatus, errorThrown) {
+            document.getElementById("login").value = "Authenticating...";
+            document.getElementById("litheader").className = "poweroff";
+            document.getElementById("login").value = "Access Denied Try Again";
+        },
+        });
+        setTimeout(function(){location.reload();}, 3000);
+        
+});
+
+
+</script>

@@ -1,0 +1,22 @@
+[% IF info.size %]
+<div class="container-fluid">
+<table class="thead-dark table-bordered table-striped">
+  <thead>
+  <tr>
+    <td>&nbsp;Admin User&nbsp;</td> <td>&nbsp;User&nbsp;</td> <td>&nbsp;Ticket&nbsp;</td> <td>&nbsp;Action&nbsp;</td> <td>&nbsp;Status&nbsp;</td> <td>&nbsp;Error&nbsp;</td> <td>&nbsp;Date&nbsp;</td>
+  </tr>
+  </thead>
+
+[% FOREACH item in info %]
+  <tr>
+    [% FOREACH ite in item %]
+    <td>
+            &nbsp;[% ite %]&nbsp;
+    </td>
+    [% END %]
+  </tr>
+[% END %]
+
+</table>
+</div>
+[% END %]

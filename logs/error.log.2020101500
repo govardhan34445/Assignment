@@ -1,0 +1,502 @@
+[CMAdmin:32564] core @2020-10-15 04:00:19> looking for get / in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:19> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] debug @2020-10-15 04:00:20> Requested path / redirecting to login in /site/cmadmin/bin/../lib/CMAdmin.pm l. 34
+[CMAdmin:32564] core @2020-10-15 04:00:20> looking for get /login in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> looking for get /js/jquery-3.3.1.js in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:32564] debug @2020-10-15 04:00:20> bless( ['file','404.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> looking for get /js/jquery-3.3.1.js in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:32564] debug @2020-10-15 04:00:20> bless( ['file','404.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:32564] core @2020-10-15 04:00:20> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:21> looking for get /favicon.ico in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:21> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] debug @2020-10-15 04:00:21> Requested path /favicon.ico redirecting to login in /site/cmadmin/bin/../lib/CMAdmin.pm l. 34
+[CMAdmin:32564] core @2020-10-15 04:00:21> looking for get /login in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:21> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:21> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:21> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:21> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:25> looking for post /login_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:25> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] info @2020-10-15 04:00:25> 'test' logged in Successfully expiry set to 1602738025 in /site/cmadmin/bin/../lib/CMAdmin.pm l. 71
+[CMAdmin:32564] info @2020-10-15 04:00:25> redirecting to /favicon.ico or '/' in /site/cmadmin/bin/../lib/CMAdmin.pm l. 75
+[CMAdmin:32564] core @2020-10-15 04:00:25> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:28> looking for get / in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:28> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:28> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:00:28> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] info @2020-10-15 04:00:28> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:32564] core @2020-10-15 04:00:28> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:28> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:00:28> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:01> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:01:01> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:01> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:01> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:01> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:05> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:01:05> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] debug @2020-10-15 04:01:05> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:32564] core @2020-10-15 04:01:05> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:12> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:01:12> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:12> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:12> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:12> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:16> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32564] core @2020-10-15 04:01:16> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:16> Entering hook core.app.route_exception in (eval 240) l. 1
+[CMAdmin:32564] error @2020-10-15 04:01:16> Route exception: Can't use string ("1") as a HASH ref while "strict refs" in use at /site/cmadmin/bin/../lib/CMAdmin.pm line 143. in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 1493
+[CMAdmin:32564] core @2020-10-15 04:01:16> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:32564] core @2020-10-15 04:01:16> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:32564] debug @2020-10-15 04:01:16> bless( ['file','500.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:32564] core @2020-10-15 04:01:16> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:02:50> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32601] core @2020-10-15 04:02:50> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:02:50> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:02:50> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:02:50> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:02:57> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32601] core @2020-10-15 04:02:57> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32601] debug @2020-10-15 04:02:58> rb remove user result$VAR1 = {
+          'err' => {
+                     'msg' => 'Object does not exist',
+                     'code' => 100
+                   },
+          'stat' => 'fail'
+        };
+error: 1 for params:$VAR1 = {
+          'group_name' => 'test_grp',
+          'username' => 'test5'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:32601] core @2020-10-15 04:02:58> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:05> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32601] core @2020-10-15 04:03:05> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:05> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:05> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:05> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:07> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32601] core @2020-10-15 04:03:07> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32601] debug @2020-10-15 04:03:07> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:32601] core @2020-10-15 04:03:07> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:09> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32601] core @2020-10-15 04:03:09> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:09> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:09> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:09> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:32601] core @2020-10-15 04:03:11> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:32601] core @2020-10-15 04:03:11> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:32601] debug @2020-10-15 04:03:12> rb remove user result$VAR1 = 1;
+error: 0 for params:$VAR1 = {
+          'group_name' => 'test_grp',
+          'username' => 'test5'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:32601] core @2020-10-15 04:03:12> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> looking for get / in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:16:07> Requested path / redirecting to login in /site/cmadmin/bin/../lib/CMAdmin.pm l. 34
+[CMAdmin:2483] core @2020-10-15 16:16:07> looking for get /login in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> looking for get /js/jquery-3.3.1.js in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:16:07> bless( ['file','404.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> looking for get /js/jquery-3.3.1.js in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:16:07> bless( ['file','404.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> looking for get /favicon.ico in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:16:07> Requested path /favicon.ico redirecting to login in /site/cmadmin/bin/../lib/CMAdmin.pm l. 34
+[CMAdmin:2483] core @2020-10-15 16:16:07> looking for get /login in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:07> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:14> looking for post /login_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:14> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] info @2020-10-15 16:16:14> 'test' logged in Successfully expiry set to 1602782174 in /site/cmadmin/bin/../lib/CMAdmin.pm l. 71
+[CMAdmin:2483] info @2020-10-15 16:16:14> redirecting to /favicon.ico or '/' in /site/cmadmin/bin/../lib/CMAdmin.pm l. 75
+[CMAdmin:2483] core @2020-10-15 16:16:14> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:17> looking for get / in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:17> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:17> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:17> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] info @2020-10-15 16:16:17> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2483] core @2020-10-15 16:16:17> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:17> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:17> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:21> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:21> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:21> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:21> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:21> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:36> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:36> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:16:37> rb add user result ok, error: 0 for params:$VAR1 = {
+          'group_name' => 'test_grp',
+          'username' => 'test5'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:2483] core @2020-10-15 16:16:37> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:44> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:44> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:44> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:44> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:44> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:50> looking for get / in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:50> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:50> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:16:50> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] info @2020-10-15 16:16:50> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2483] core @2020-10-15 16:16:50> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:50> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:16:50> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:17:29> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:17:29> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:17:29> rb remove user result$VAR1 = 1;
+error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:2483] core @2020-10-15 16:17:29> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:29> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:18:29> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:29> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:29> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:29> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:33> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:18:33> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:33> Entering hook core.app.route_exception in (eval 240) l. 1
+[CMAdmin:2483] error @2020-10-15 16:18:33> Route exception: Can't use string ("malformed JSON string, neither t"...) as a HASH ref while "strict refs" in use at /site/cmadmin/bin/../lib/CMAdmin.pm line 124. in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 1493
+[CMAdmin:2483] core @2020-10-15 16:18:33> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:33> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:2483] debug @2020-10-15 16:18:33> bless( ['file','500.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:2483] core @2020-10-15 16:18:33> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:54> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2483] core @2020-10-15 16:18:54> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:54> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:54> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2483] core @2020-10-15 16:18:54> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:24:58> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:24:58> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:24:58> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:24:58> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:24:58> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:17> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:17> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:17> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:17> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:17> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:20> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:20> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:20> Entering hook core.app.route_exception in (eval 240) l. 1
+[CMAdmin:2593] error @2020-10-15 16:25:20> Route exception: Can't use string ("malformed JSON string, neither t"...) as a HASH ref while "strict refs" in use at /site/cmadmin/bin/../lib/CMAdmin.pm line 124. in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 1493
+[CMAdmin:2593] core @2020-10-15 16:25:20> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:20> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:2593] debug @2020-10-15 16:25:20> bless( ['file','500.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:2593] core @2020-10-15 16:25:20> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:27> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:27> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:27> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:27> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:27> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] info @2020-10-15 16:25:40> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:40> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:42> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] info @2020-10-15 16:25:42> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:42> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] info @2020-10-15 16:25:42> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:42> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:44> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:44> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:44> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:44> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:44> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:47> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:25:47> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:47> Entering hook core.app.route_exception in (eval 240) l. 1
+[CMAdmin:2593] error @2020-10-15 16:25:47> Route exception: Can't use string ("malformed JSON string, neither t"...) as a HASH ref while "strict refs" in use at /site/cmadmin/bin/../lib/CMAdmin.pm line 124. in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 1493
+[CMAdmin:2593] core @2020-10-15 16:25:47> Entering hook core.error.init in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:25:47> Entering hook core.error.before in (eval 240) l. 1
+[CMAdmin:2593] debug @2020-10-15 16:25:47> bless( ['file','500.tt: not found',undef], 'Template::Exception' ) in /usr/local/share/perl/5.22.1/Dancer2/Core/Error.pm l. 73
+[CMAdmin:2593] core @2020-10-15 16:25:47> Entering hook core.error.after in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:20> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:20> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:20> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:20> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:20> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:21> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:21> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:21> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:21> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:21> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:24> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:24> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] debug @2020-10-15 16:26:28> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:2593] core @2020-10-15 16:26:28> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:29> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:29> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] info @2020-10-15 16:26:29> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2593] core @2020-10-15 16:26:29> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:29> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:29> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:30> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:30> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] info @2020-10-15 16:26:30> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:2593] core @2020-10-15 16:26:30> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:30> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:30> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:32> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:32> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:32> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:32> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:32> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:2593] core @2020-10-15 16:26:36> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:2593] core @2020-10-15 16:26:36> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:2593] debug @2020-10-15 16:26:40> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:2593] core @2020-10-15 16:26:40> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3001] core @2020-10-15 16:27:08> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3001] core @2020-10-15 16:27:08> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3001] debug @2020-10-15 16:27:08> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:3001] core @2020-10-15 16:27:08> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3001] core @2020-10-15 16:27:10> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3001] core @2020-10-15 16:27:10> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3001] core @2020-10-15 16:27:10> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3001] core @2020-10-15 16:27:10> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3001] core @2020-10-15 16:27:10> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:28:57> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:28:57> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:28:57> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:28:57> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:28:57> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:29:58> looking for get /favicon.ico in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:29:58> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] info @2020-10-15 16:29:58> Path: favicon.ico in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:3015] core @2020-10-15 16:29:58> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:29:58> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:29:58> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:41> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:32:47> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:32:47> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] debug @2020-10-15 16:32:47> rb remove user result$VAR1 = 1;
+error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:3015] core @2020-10-15 16:32:47> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:33:03> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:33:03> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] debug @2020-10-15 16:33:04> rb remove user result$VAR1 = {
+          'err' => {
+                     'msg' => 'Object does not exist',
+                     'code' => 100
+                   },
+          'stat' => 'fail'
+        };
+error: 1 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:3015] core @2020-10-15 16:33:04> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:09> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:09> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:09> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:09> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:09> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:11> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:11> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:11> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:11> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:11> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:16> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:16> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] debug @2020-10-15 16:38:16> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:3015] core @2020-10-15 16:38:16> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:18> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:18> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:18> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:18> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:18> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:29> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:29> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] debug @2020-10-15 16:38:30> rb remove user result$VAR1 = 1;
+error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:3015] core @2020-10-15 16:38:30> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:37> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:37> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:37> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:37> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:37> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:40> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:40> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] debug @2020-10-15 16:38:40> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test5',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:3015] core @2020-10-15 16:38:40> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:42> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:38:42> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:42> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:42> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:38:42> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:40:48> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:40:48> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:40:48> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:40:48> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:40:48> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:00> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:41:00> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] info @2020-10-15 16:41:00> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:3015] core @2020-10-15 16:41:00> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:00> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:00> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:04> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:41:04> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:04> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:04> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:04> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:06> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:41:06> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] info @2020-10-15 16:41:06> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:3015] core @2020-10-15 16:41:06> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:06> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:06> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:48> looking for get /delete_user_rb in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3015] core @2020-10-15 16:41:48> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3015] info @2020-10-15 16:41:48> Path: delete_user_rb in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:3015] core @2020-10-15 16:41:48> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:48> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3015] core @2020-10-15 16:41:48> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:05> looking for get /delete_user_rb in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3394] core @2020-10-15 17:12:05> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3394] info @2020-10-15 17:12:05> Path: delete_user_rb in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:3394] core @2020-10-15 17:12:05> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:05> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:05> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:07> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3394] core @2020-10-15 17:12:07> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:07> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:07> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:07> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3394] core @2020-10-15 17:12:10> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3394] core @2020-10-15 17:12:10> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3394] debug @2020-10-15 17:12:10> rb add user result ok, error: 0 for params:$VAR1 = {
+          'group_name' => 'test_grp',
+          'username' => 'test5'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:3394] core @2020-10-15 17:12:10> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:41> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:12:41> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:41> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:41> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:41> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:47> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:12:47> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] debug @2020-10-15 17:12:47> rb remove user result$VAR1 = 1;
+error: 0 for params:$VAR1 = {
+          'group_name' => 'test_grp',
+          'username' => 'test5'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:3398] core @2020-10-15 17:12:47> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:49> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:12:49> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:49> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:49> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:49> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:12:57> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:12:57> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] debug @2020-10-15 17:12:58> rb add user result fail, error: 1 for params:$VAR1 = {
+          'username' => 'test555',
+          'group_name' => 'test_grp'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:3398] core @2020-10-15 17:12:58> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:31> looking for get /rb_add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:14:31> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:31> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:31> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:31> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:42> looking for post /review_group/add_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:14:42> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] debug @2020-10-15 17:14:43> rb add user result ok, error: 0 for params:$VAR1 = {
+          'username' => 'test7',
+          'group_name' => 'test_grp2'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 124
+[CMAdmin:3398] core @2020-10-15 17:14:43> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:46> looking for get /rb_remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:14:46> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:46> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:46> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:14:46> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:15:11> looking for post /review_group/remove_user in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:15:11> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] debug @2020-10-15 17:15:11> rb remove user result$VAR1 = 1;
+error: 0 for params:$VAR1 = {
+          'group_name' => 'test_grp2',
+          'username' => 'test7'
+        }; in /site/cmadmin/bin/../lib/CMAdmin.pm l. 143
+[CMAdmin:3398] core @2020-10-15 17:15:11> Entering hook core.app.after_request in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:15:23> looking for get /mgr_view in /usr/local/share/perl/5.22.1/Dancer2/Core/App.pm l. 35
+[CMAdmin:3398] core @2020-10-15 17:15:23> Entering hook core.app.before_request in (eval 240) l. 1
+[CMAdmin:3398] info @2020-10-15 17:15:23> Path: mgr_view in /site/cmadmin/bin/../lib/CMAdmin.pm l. 170
+[CMAdmin:3398] core @2020-10-15 17:15:23> Entering hook core.app.before_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:15:23> Entering hook core.app.after_file_render in (eval 240) l. 1
+[CMAdmin:3398] core @2020-10-15 17:15:23> Entering hook core.app.after_request in (eval 240) l. 1

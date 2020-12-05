@@ -1,0 +1,20 @@
+<hr/>
+<h1>[% h1title %]</h1>
+<hr/>
+<form class="form-inline" id="user_form" method="post" action="[% path %]">
+ <div class="form-group mx-sm-3 mb-2">
+    <label for="username" class="sr-only">Username</label>
+    <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" value="[% username %]" required>
+  </div>
+    <!-- sudo /cmscripts/f5ldap -t <username>.
+           disabled then go to the further step     -->
+  <button type="submit" class="btn btn-primary mb-2" id="submitme">Submit</button>
+</form>
+<hr/>
+
+[% INCLUDE 'components/output.tt' %]
+
+[% if path.match('delete_user_') %]
+  [% INCLUDE 'components/confirm.tt' %]
+[% END %]
+

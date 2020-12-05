@@ -1,0 +1,16 @@
+<script>
+$('#submitme').on('click', function() {
+  event.preventDefault();
+
+  alertify.confirm('Are you sure?', function(e) {
+    if(e) {
+      console.log('OK clicked');
+      $('#user_form').submit();
+      return(true);
+    } else {
+      console.log('Cancel clicked');
+      return(false);
+    }
+  });
+})
+</script>
