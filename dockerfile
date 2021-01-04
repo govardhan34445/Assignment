@@ -14,7 +14,7 @@ RUN cpan install URL::Encode::XS
 RUN cpan install CGI::Deurl::XS
 RUN cpan install HTTP::Parser::XS
 RUN cpan install Crypt::SaltedHash
-RUN git clone gitswarm.f5net.com:rakeshgroup/soc-ui-live.git 
+RUN git clone git@github.com:sreknar/cmadmin-topic-v3.git
 EXPOSE 9090
 WORKDIR Dancer/CMAdmin
 CMD starman --port 9090 bin/app.psgi
