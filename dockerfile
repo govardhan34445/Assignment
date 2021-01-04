@@ -16,6 +16,7 @@ RUN cpan install HTTP::Parser::XS
 RUN cpan install Crypt::SaltedHash
 RUN git clone https://github.com/govardhan34445/Assignment.git
 EXPOSE 9090
-WORKDIR Dancer/CMAdmin
+RUN "mkdir Dancer/CMAdmin"
+RUN "cd  Dancer/CMAdmin"
 COPY ./bin/app.psgi Dancer/CMAdmin/
 CMD starman --port 9090 bin/app.psgi
